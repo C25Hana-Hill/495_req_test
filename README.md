@@ -17,7 +17,7 @@ If you are using conda, these commands should do the trick:
 If you are using Windows without conda, these commands should work inside of your Command Prompt (**note: must use python 3.10**):  
 Use your path to your downloaded Python 3.10.11 in the following command (the path below is only an example of what it might look like):  
 `C:\Users\C2XName\AppData\Local\Programs\Python\Python310\python.exe -m venv 495venv` -- This command gives your new environment a name of *495venv*  
-`495venv\Scripts\activate` -- This command activates the environment so that you can install other programs within that environment. You might see the name inside of your brackets change from *base* to the name of your new environment. 
+Navigate to this folder: `495venv\Scripts` and type `.\activate` -- This command activates the environment so that you can install other programs within that environment. You might see the name inside of your brackets change from *base* to the name of your new environment. 
   
 Note: I don't think anyone is using Linux or Mac, but please let me know if you are and need additional assistance.
   
